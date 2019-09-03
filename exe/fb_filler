@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
 require 'fb_filler'
-filler = FbFiller::Filler.new
+filler = FbFiller::Filler.start
