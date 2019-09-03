@@ -5,7 +5,7 @@ module FbFiller
   # # Your code goes here...
   class Filler 
     
-    def fill_factory(column, factory_name='')
+    def self.fill_factory(column, factory_name='')
 
       class_name = column.split('_').map(&:capitalize).join
       line_array = []
@@ -44,7 +44,7 @@ module FbFiller
       end
     end
 
-    def get_attributes(ary)
+    def self.get_attributes(ary)
       stripped_ary = []
       ary.each do |char|
         stripped_ary << char.scan(/"([^"]*)"/)
