@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fb_filler (0.1.0)
+    fb_filler (0.1.2)
 
 GEM
   remote: https://rubygems.org/
